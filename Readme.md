@@ -12,5 +12,5 @@ brew install putty
 ##### First need to update the package list in all 3 machines
 ```bash 
 sudo apt-get update
-````
+`````
 

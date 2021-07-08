@@ -26,7 +26,7 @@ docker ––version
 ```bash
 sudo systemctl enable docker
 ```
-#### Next verify if Docker is running on all 3 machines Install Kubernetes all 3 machin
+#### Next verify if Docker is running on all 3 machines - `Install Kubernetes all 3 machin`
 ```bash
 sudo systemctl status docker
 ```
@@ -77,12 +77,13 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```bash 
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
-##### use code when kubernetes host error -
+##### use code when `kubernetes` host if error show -
 ```bash 
 kubeadm reset 
 ```
 
-#### If show error ( IP address not found like that - so use this code-
+#### If show error IP address not found like that - so use this code- exmaple <br>(`The connection to the server 192.168.x.x:6443 was refused - did you specify the right host or port? `)
+
 ```bash 
 sudo cp /etc/kubernetes/admin.conf ~/.kube/config && sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```

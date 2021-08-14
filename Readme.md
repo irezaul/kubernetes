@@ -37,7 +37,7 @@ echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/
 ```
 ##### Next
 ```bash
-curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add 
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add
 ```
 #### Since Kubernetes is not included in the default repo, add software repo:
 ```bash 
